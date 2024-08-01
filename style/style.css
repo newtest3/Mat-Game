@@ -208,6 +208,18 @@ img {
    justify-content: space-around;
    width: 1180px;
 }
+.buttonPage {
+   width: 70px;
+   height: 30px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+   font-size: 15px;
+   font-family: cursive;
+   transition-duration: 2s;
+   transition-property: all;
+   background: rgb(46, 46, 46);
+   color: white;
+}
 @media(max-width:769px){
    .taskSelectionButton {
       display: flex;
@@ -235,9 +247,11 @@ img {
       flex-direction: row;
    }
    .rowAnswer__buttonCheck, .deleteLetterButton{
-      padding: 0;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 5px;
       font-size: 15px;
       margin: 5px;
+      font-weight: 600;
    }
    .rowAnswer__input {
       
@@ -246,13 +260,18 @@ img {
       font-size: 20px;
    }
    .addLetters__button {
-      padding: 2px 5px;
-      font-size: 14px;
+      font-family:'Times New Roman';
+      padding: 5px 7px;
+      font-size: 25px;
       margin: 5px 5px;
       border-radius: 30%;
       background: rgb(142, 243, 150);
       transition-duration: 1s;
       transition-property: all;
+      
+   }
+   .buttonPage {
+      font-family:'Times New Roman';
    }
 }
 
@@ -271,19 +290,6 @@ img {
    color: brown;
    text-align: center;
    letter-spacing: 1px;
-}
-
-.buttonPage {
-   width: 70px;
-   height: 30px;
-   border-radius: 10px;
-   margin-bottom: 50px;
-   font-size: 15px;
-   font-family: cursive;
-   transition-duration: 2s;
-   transition-property: all;
-   background: rgb(46, 46, 46);
-   color: white;
 }
 
 .buttonPage:hover {
