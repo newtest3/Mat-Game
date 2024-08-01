@@ -220,23 +220,21 @@ img {
    background: rgb(46, 46, 46);
    color: white;
 }
+
 @media(max-width:769px){
    .taskSelectionButton {
       display: flex;
       justify-content: space-around;
       width: 500px;
    }
-   
-}
-@media(max-width:481px){
    .check_delete_button{
       display: flex;
       flex-direction: column;
       justify-content: stretch;
    }
    .animals{
-      height: 200px;
-      width: 225px;
+      height: 220px;
+      width: 260px;
       margin-bottom: 30px;
    }
    .column__condition{
@@ -250,7 +248,7 @@ img {
       font-family: 'Times New Roman', Times, serif;
       padding: 5px;
       font-size: 15px;
-      margin: 5px;
+      margin: 10px;
       font-weight: 600;
    }
    .rowAnswer__input {
