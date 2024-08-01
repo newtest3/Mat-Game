@@ -137,6 +137,7 @@ img {
 .rowAnswer {
    display: flex;
    flex-direction: column;
+   align-items: center;
 }
 
 .rowAnswer__letters {
@@ -144,6 +145,8 @@ img {
    border: 2px solid rgb(133, 247, 194);
    border-radius: 3px;
    background: rgb(230, 248, 207);
+   width: 400px;
+  
 }
 
 .rowAnswer__input {
@@ -244,6 +247,14 @@ img {
    .check_delete_button{
       flex-direction: row;
    }
+   .rowAnswer__letters {
+      text-align: left;
+      border: 2px solid rgb(133, 247, 194);
+      border-radius: 3px;
+      background: rgb(230, 248, 207);
+      width: 260px;
+     
+   }
    .rowAnswer__buttonCheck, .deleteLetterButton{
       font-family: 'Times New Roman', Times, serif;
       padding: 5px;
@@ -251,10 +262,7 @@ img {
       margin: 10px;
       font-weight: 600;
    }
-   .rowAnswer__input {
-      
-      height: 100%;
-      width: 200px;
+   .rowAnswer__input{
       font-size: 20px;
    }
    .addLetters__button {
